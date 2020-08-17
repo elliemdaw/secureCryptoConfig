@@ -5,7 +5,7 @@
 NO Working Group YET                                       K. Mindermann
 Internet-Draft                                           iC Consult GmbH
 Intended status: Informational                                   L. Teis
-Expires: 19 January 2021                                    18 July 2020
+Expires: 18 February 2021                                 17 August 2020
 
 
                           Secure Crypto Config
@@ -53,12 +53,12 @@ Status of This Memo
 
 
 
-Mindermann & Teis        Expires 19 January 2021                [Page 1]
+Mindermann & Teis       Expires 18 February 2021                [Page 1]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
-   This Internet-Draft will expire on 19 January 2021.
+   This Internet-Draft will expire on 18 February 2021.
 
 Copyright Notice
 
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Mindermann & Teis        Expires 19 January 2021                [Page 2]
+Mindermann & Teis       Expires 18 February 2021                [Page 2]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
    5.  Publication Format and Distribution . . . . . . . . . . . . .  17
@@ -133,8 +133,8 @@ Internet-Draft                     SCC                         July 2020
        6.2.1.  Delivery of Secure Crypto Config with Interface . . .  26
        6.2.2.  Using a custom Secure Crypto Config Repository  . . .  26
        6.2.3.  Integrity Check . . . . . . . . . . . . . . . . . . .  26
-     6.3.  Application Programming Interface (API) . . . . . . . . .  26
-       6.3.1.  Methods and Parameters  . . . . . . . . . . . . . . .  26
+     6.3.  Application Programming Interface (API) . . . . . . . . .  27
+       6.3.1.  Methods and Parameters  . . . . . . . . . . . . . . .  27
        6.3.2.  Automatic Parameter Tuning  . . . . . . . . . . . . .  27
        6.3.3.  Output of readable Secure Crypto Config . . . . . . .  28
      6.4.  TODOs . . . . . . . . . . . . . . . . . . . . . . . . . .  28
@@ -165,9 +165,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021                [Page 3]
+Mindermann & Teis       Expires 18 February 2021                [Page 3]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
 1.1.  Motivation
@@ -221,9 +221,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021                [Page 4]
+Mindermann & Teis       Expires 18 February 2021                [Page 4]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
    can change their default cryptography algorithms but still parse the
@@ -277,9 +277,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021                [Page 5]
+Mindermann & Teis       Expires 18 February 2021                [Page 5]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
    *  Centralized and regularly updated single source of truth for
@@ -333,9 +333,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021                [Page 6]
+Mindermann & Teis       Expires 18 February 2021                [Page 6]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
    Possible secure usage:
@@ -389,9 +389,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021                [Page 7]
+Mindermann & Teis       Expires 18 February 2021                [Page 7]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
    *  SHAKE256 (TEMPORARY - registered 2019-08-13, expires
@@ -445,9 +445,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021                [Page 8]
+Mindermann & Teis       Expires 18 February 2021                [Page 8]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
    The only expected input parameters for signing:
@@ -501,9 +501,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021                [Page 9]
+Mindermann & Teis       Expires 18 February 2021                [Page 9]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
       -  There must be a guideline on how to determine broad
@@ -557,9 +557,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 10]
+Mindermann & Teis       Expires 18 February 2021               [Page 10]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
          o  The Secure Crypto Config must allow non-experts to find
@@ -613,9 +613,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 11]
+Mindermann & Teis       Expires 18 February 2021               [Page 11]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
       -  The Secure Crypto Config should be protected against attackers
@@ -669,9 +669,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 12]
+Mindermann & Teis       Expires 18 February 2021               [Page 12]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
 3.4.  Security Level 4
@@ -725,9 +725,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 13]
+Mindermann & Teis       Expires 18 February 2021               [Page 13]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
 3.6.3.  Constrained Devices
@@ -781,9 +781,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 14]
+Mindermann & Teis       Expires 18 February 2021               [Page 14]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
    *  The attacker has access to the system used for cryptography
@@ -837,9 +837,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 15]
+Mindermann & Teis       Expires 18 February 2021               [Page 15]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
    *  (3) Six months *Publication phase* ensures the publication of the
@@ -893,9 +893,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 16]
+Mindermann & Teis       Expires 18 February 2021               [Page 16]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
 4.1.3.  Requirements for Selection of Cryptography Algorithm and
@@ -949,9 +949,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 17]
+Mindermann & Teis       Expires 18 February 2021               [Page 17]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
 5.1.  Versioning
@@ -1005,9 +1005,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 18]
+Mindermann & Teis       Expires 18 February 2021               [Page 18]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
    *  Distinct and *constantly available reference* where all parameters
@@ -1061,9 +1061,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 19]
+Mindermann & Teis       Expires 18 February 2021               [Page 19]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
    Used registries must define all required parameters for an algorithm
@@ -1117,9 +1117,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 20]
+Mindermann & Teis       Expires 18 February 2021               [Page 20]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
                        Figure 1: General JSON format
@@ -1173,9 +1173,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 21]
+Mindermann & Teis       Expires 18 February 2021               [Page 21]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
 5.6.  Official Secure Crypto Config Repository
@@ -1229,9 +1229,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 22]
+Mindermann & Teis       Expires 18 February 2021               [Page 22]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
    scc-repo
@@ -1285,9 +1285,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 23]
+Mindermann & Teis       Expires 18 February 2021               [Page 23]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
    *  [ ] Can two signatures be put in one signature file?  Should they
@@ -1341,9 +1341,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 24]
+Mindermann & Teis       Expires 18 February 2021               [Page 24]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
    1.  Check if the path to the Secure Crypto Configs is a valid one.
@@ -1364,13 +1364,21 @@ Internet-Draft                     SCC                         July 2020
 
    The parsing of each valid JSON file must be done as follows:
 
-   1.  Readout the security level of each valid file such that each file
-       can be associated with its level (filename : level).  (Optional)
-       Add defined level to a set of all possible levels for later
-       processing.  All files not containing an (positive) integer
-       number as security level value will be discarded.
+   1.  Readout all informations of all JSON files that need to be
+       considered.  The information of each file is stored in a
+       correspoding object.  With this procedure all JSON files need to
+       be read only once which will contribute to the performance.
 
-   2.  Parsing of the version of all files: All files with values in the
+   2.  Parsing of security level: Check if it is a positive integer.
+       All files not containing an (positive) integer number as security
+       level value will be discarded.
+
+   3.  Parsing of algorithm identifiers: Only the algorithm identifiers
+       that are supported by the Interface will be considered and stored
+       inside the corresponding object.  The supported algorithms are
+       specified inside the interface (e.g. with an enmum).
+
+   4.  Parsing of the version of all files: All files with values in the
        wrong format (see Section 5.1) will be excluded from further
        processing.  Find the latest (according to version) Secure Crypto
        Config file with the highest appearing security level (determined
@@ -1380,27 +1388,27 @@ Internet-Draft                     SCC                         July 2020
        levels and version number are found, only the first one will be
        used, others are discarded.
 
-   3.  The unique algorithm identifiers for the execution of a specific
-       cryptographic use case will be parsed at the time the users
-       invokes a method for a specific cryptographic use case.  The
-       algorithm identifiers for the specific use case are parsed and
-       will then be compared to the supported algorithm identifiers of
-       the Interface.  The supported algorithms are specified inside the
-       interface (e.g. with an enmum).  The identifiers will be compared
-       with the supported ones in order of their occurrence inside the
-       file.  If one matching identifier is found it will be used for
-       execution.  If it is not a matching one the value will be skipped
-       and the next one will be compared.  If none of the algorithms
-       inside the selected Secure Crypto Config can be found an error
-       will occur.
+   5.  The unique algorithm identifiers for the execution of a specific
+       cryptographic use case will be fetched from the corresponding
+       object (representing the JSON file determined beforehand) at the
+       time the users invokes a method for a specific cryptographic use
+       case.  The Interface will also provide a possibility to choose a
+       specific algorithm (out of the supported ones) for executing the
 
 
 
-
-Mindermann & Teis        Expires 19 January 2021               [Page 25]
+Mindermann & Teis       Expires 18 February 2021               [Page 25]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
+
+       desired use case.  In this case the specified algorithm is used.
+       The identifiers will be compared with the supported ones in order
+       of their occurrence inside the file.  If one matching identifier
+       is found it will be used for execution.  If it is not a matching
+       one the value will be skipped and the next one will be compared.
+       If none of the algorithms inside the selected Secure Crypto
+       Config can be found an error will occur.
 
 6.2.1.  Delivery of Secure Crypto Config with Interface
 
@@ -1441,6 +1449,15 @@ Internet-Draft                     SCC                         July 2020
    Secure Crypto Configs are created than it can be possible that no
    validation process is needed for these files.
 
+
+
+
+
+Mindermann & Teis       Expires 18 February 2021               [Page 26]
+
+Internet-Draft                     SCC                       August 2020
+
+
 6.3.  Application Programming Interface (API)
 
 6.3.1.  Methods and Parameters
@@ -1449,14 +1466,6 @@ Internet-Draft                     SCC                         July 2020
    described in Figure 5.
 
 6.3.1.1.  Supported Algorithm Parameter Types
-
-
-
-
-Mindermann & Teis        Expires 19 January 2021               [Page 26]
-
-Internet-Draft                     SCC                         July 2020
-
 
    *  [ ] TODO What is with parameters that have to be chosen during
       runtime? (e.g. the length of the nonce can be specified but not
@@ -1497,22 +1506,18 @@ Internet-Draft                     SCC                         July 2020
    parameter choice would be beneficial e.g. in the case of Argon2
    (https://tools.ietf.org/html/draft-irtf-cfrg-argon2-03) in which one
    parameter for the memory usage must be given.  This choice should be
+
+
+
+Mindermann & Teis       Expires 18 February 2021               [Page 27]
+
+Internet-Draft                     SCC                       August 2020
+
+
    chosen on the base of the corresponding system.  That kind of
    parameter selection can be seen e.g. in Libpasta Tuning
    (https://libpasta.github.io/advanced/tuning/), which returns a secure
    parameter set depending on executed evaluations.
-
-
-
-
-
-
-
-
-Mindermann & Teis        Expires 19 January 2021               [Page 27]
-
-Internet-Draft                     SCC                         July 2020
-
 
 6.3.3.  Output of readable Secure Crypto Config
 
@@ -1560,14 +1565,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-
-
-
-
-
-Mindermann & Teis        Expires 19 January 2021               [Page 28]
+Mindermann & Teis       Expires 18 February 2021               [Page 28]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
 8.  Cryptography Algorithm Standards Recommendation
@@ -1621,9 +1621,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 29]
+Mindermann & Teis       Expires 18 February 2021               [Page 29]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
 9.4.  General Security Considerations
@@ -1677,9 +1677,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 30]
+Mindermann & Teis       Expires 18 February 2021               [Page 30]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
    *  *Publication:* After the publication of the Secure Crypto Config a
@@ -1733,9 +1733,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 31]
+Mindermann & Teis       Expires 18 February 2021               [Page 31]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
    [AESNI]    Gueron, S., "Intel Advanced Encryption Standard (AES)
@@ -1789,9 +1789,9 @@ A.1.  JSON Secure Crypto Config
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 32]
+Mindermann & Teis       Expires 18 February 2021               [Page 32]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
    [
@@ -1845,9 +1845,9 @@ Appendix B.  Example Java Interface using Secure Crypto Config
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 33]
+Mindermann & Teis       Expires 18 February 2021               [Page 33]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
    package main;
@@ -1901,9 +1901,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 34]
+Mindermann & Teis       Expires 18 February 2021               [Page 34]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
            // Digital Signature
@@ -1957,9 +1957,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 35]
+Mindermann & Teis       Expires 18 February 2021               [Page 35]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
    }
@@ -2013,9 +2013,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 36]
+Mindermann & Teis       Expires 18 February 2021               [Page 36]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
            abstract byte[] getPublicKeyBytes();
@@ -2069,9 +2069,9 @@ Internet-Draft                     SCC                         July 2020
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 37]
+Mindermann & Teis       Expires 18 February 2021               [Page 37]
 
-Internet-Draft                     SCC                         July 2020
+Internet-Draft                     SCC                       August 2020
 
 
    }
@@ -2125,4 +2125,4 @@ Authors' Addresses
 
 
 
-Mindermann & Teis        Expires 19 January 2021               [Page 38]
+Mindermann & Teis       Expires 18 February 2021               [Page 38]
